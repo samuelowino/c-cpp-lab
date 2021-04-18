@@ -7,6 +7,7 @@ namespace Stack{
     int top = 0;
 
     void push(char c){
+        if(top == max_size) throw Overflow();
         v[max_size] = c;
     }
 

@@ -3,6 +3,12 @@
 
 //Function utilising the Stack namespace
 void f(){
-    Stack::push('c');
-    if(Stack::pop() != 'c') error("impossible");
+    try{
+        while(true){
+             Stack::push('c');
+            if(Stack::pop() != 'c') error("impossible");
+        }
+    }catch(Stack::Overflow){
+        cout<<"Exception occured : Stack::Overflow"<<endl;
+    }
 }
