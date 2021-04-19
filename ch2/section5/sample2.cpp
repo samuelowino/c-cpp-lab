@@ -13,7 +13,9 @@ struct Entry {
 vector<Entry> phone_book(1000);
 
 int main(){
-    
+    for(int i = 0; i < phone_book.size; i++){
+        print_entry(i);
+    }
 }
 
 void print_entry(int index){
