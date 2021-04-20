@@ -1,4 +1,4 @@
-//C++ Containers : Vectors, Phone Book Example
+//C++ Containers : C-style Vector, Phone Book Example
 #include <iostream>
 #include <vector>
 
