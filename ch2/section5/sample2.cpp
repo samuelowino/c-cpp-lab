@@ -25,3 +25,14 @@ void print_entry(int index){
 void add_entries(int n){
     phone_book.resize(phone_book.size() + n);
 }
+
+void f(vector<Entry>& v){
+    vector<Entry> v2 = phone_book;
+    v = v2; 
+    /** 
+     * After initialization and assignment,
+     * v and v2 each hold a seperate copy of every entity 
+     * in phone book
+     *
+    **/
+}
