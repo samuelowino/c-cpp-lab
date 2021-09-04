@@ -1,4 +1,4 @@
-#include "stack.h"
+#include "../namespace/stack.h"
 
 //Stack namespace implementation
 namespace Stack{
@@ -7,11 +7,11 @@ namespace Stack{
     int top = 0;
 
     void push(char c){
-        if(top == max_size) throw Overflow();
+        if(top == max_size) throw StackOverflow();
         v[max_size] = c;
     }
 
-    void pop(){
-        v[max_size] = 0;
+    char pop(){
+        return v[max_size] = 0;
     }
 }
