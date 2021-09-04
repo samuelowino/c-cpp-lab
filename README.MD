@@ -1,4 +1,8 @@
 # CPP Code Samples
+
+![Bjarne Stroustrap](cpp_logo.png)
+
+
 ## Base on Bjarne Stroustrap book **The C++ Programming Language**
 
 ![Bjarne Stroustrap](bjarne-meme.jpg)
