@@ -1,6 +1,6 @@
 # CPP Code Samples
 
-![Bjarne Stroustrap](cpp_logo.png)
+<img src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" alt="C++ Logo" width="306" height="344" />
 
 
 ## Base on Bjarne Stroustrap book **The C++ Programming Language**
