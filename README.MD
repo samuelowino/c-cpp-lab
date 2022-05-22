@@ -8,7 +8,7 @@
 
 ## Notes and Code Samples Based on Bjarne's Book, **The C++ Programming Language**
 
-**The book is divided into four parts;
+## The book is divided into four parts;
 
 * **Part 1: A tour of C++**
 * **Part 2: Basic facilities**
@@ -18,7 +18,5 @@
 > Each section has multiple chapters that deal with specific subjects and language features
 
 - - -
-
-![Bjarne Stroustrap](bjarne-meme.jpg)
 
 
